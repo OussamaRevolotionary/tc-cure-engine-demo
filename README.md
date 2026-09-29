@@ -46,7 +46,7 @@ the same calendar, so a slot booked through either page is never offered twice.
 Responses: `200 {ok:true, when, meetLink}` · `400 invalid` · `409 slot taken` · `503 calendar unavailable`.
 If slots can't be loaded, the page falls back to an email button.
 
-Booking hours: **Sunday to Friday, 08:00-20:00 Algeria time (UTC+1)**, Friday 13:00-14:00 blocked,
+Booking hours: **Sunday to Friday, 08:00-20:00 UTC+1**, Friday 13:00-14:00 blocked,
 30-min grid, 20-min calls, 35 days ahead, 12 h minimum notice. That covers Europe, Africa and the
 Middle East all day, India in the afternoon and US East/West Coast mornings. The rules live at the
 top of the **Build Open Slots** and **Validate Booking** Code nodes; change both together.
